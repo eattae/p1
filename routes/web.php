@@ -18,5 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('h1');
+    return view('home');
+});
+Route::get('{any}', function () {
+    return view('welcome');
 });
