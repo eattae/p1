@@ -14,6 +14,9 @@ function App() {
 
     const userdata_URI = "/api/userdata";
 
+
+
+
     // ทำงานตอน component ถูกเรียกใช่้งาน
     useEffect(() => {
         //
@@ -39,6 +42,7 @@ function App() {
                         <div classname="col-12">
                             <Homenavbar />
                         </div>
+                        
                         <h1>Welcome to React Router!</h1>
                         <Routes>
                             <Route path="/" element={<Home />} />
