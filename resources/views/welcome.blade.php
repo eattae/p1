@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Style -->
-    <link rel="stylesheet" href="{{ asset ('css/app.css')}}">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
    <!-- React ROOT DOM -->
         <div id="root"></div>>
     <!-- REACT JS -->
-    <script src = "{{asset('js/app.js')}}" defer></script> 
+    <script src = "js/app.js" defer></script> 
 </body>
 </html>
